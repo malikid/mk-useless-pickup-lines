@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>UselessPickUpLine: Quotes Rotator</title>
+		<meta name="description" content="Blueprint: Quotes Rotator" />
+		<meta name="keywords" content="quotes rotator, content rotator, jquery, javascript, fade in, fade out, css3, component, html, web development, blockquote" />
+		<meta name="author" content="Codrops" />
+		<!-- <link rel="shortcut icon" href="../favicon.ico"> -->
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<header class="clearfix">
+				<span>UselessPickUpLine <span class="bp-icon bp-icon-about" data-content="The Blueprints are a collection of basic and minimal website concepts, components, plugins and layouts with minimal style for easy adaption and usage, or simply for inspiration."></span></span>
+				<h1>Quotes Rotator</h1>
+				<!-- <nav>
+					<a href="http://tympanus.net/Blueprints/NestedAccordion" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+					<a href="http://tympanus.net/Blueprints/SlidePushMenus/" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a>
+					<a href="http://tympanus.net/codrops/?p=14591" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+					<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+				</nav> -->
+			</header>	
+			<div class="main">
+				<div id="cbp-qtrotator" class="cbp-qtrotator">
+					<div class="cbp-qtcontent">
+						<img src="images/1.jpg" alt="img01" />
+						<blockquote>
+						  <p>男：我最近時不時的想到銅元素。
+							女：為什麼？
+							男：因為想 C u。
+							</p><p>
+							男：妳知道金城武最喜歡碘跟銅嗎？
+							女：為什麼？
+							男：因為ICu。</p>
+						  <footer>Orange</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/3.jpg" alt="img03" />
+						<blockquote>
+						  <p>男: 我喜歡海膽
+							女: 為什麼?
+							男: 因為是u n i</p>
+						  <footer>橘</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/4.jpg" alt="img04" />
+						<blockquote>
+						  <p>男: 你屬什麼?
+							女: 我屬虎
+							女: 那你呢，你屬什麼?
+							男: 屬於妳</p>
+						  <footer>Allen Wang</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/2.jpg" alt="img02" />
+						<blockquote>
+						  <p>女: 這家餐廳的Menu上有甚麼?
+							男: Me n u</p>
+						  <footer>Chia Hung</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/3.jpg" alt="img03" />
+						<blockquote>
+						  <p>男: 你走左邊
+							女: 為什麼?
+							男: 因為這樣我才是妳的 Mr.Right</p>
+						  <footer>橘</footer>
+						</blockquote>
+					</div>
+					<div class="cbp-qtcontent">
+						<img src="images/4.jpg" alt="img04" />
+						<blockquote>
+						  <p>男：我想加妳FB
+							女：為什麼？
+							男：因為我要偷你的菜</p>
+							<p>男：欸等等，我發現我再也不用偷菜了
+							女：為什麼？
+							男：因為妳就是我的菜</p>
+						  <footer>Chia-Hung Huang</footer>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.cbpQTRotator.min.js"></script>
+		<script>
+			$( function() {
+				/*
+				- how to call the plugin:
+				$( selector ).cbpQTRotator( [options] );
+				- options:
+				{
+					// default transition speed (ms)
+					speed : 700,
+					// default transition easing
+					easing : 'ease',
+					// rotator interval (ms)
+					interval : 8000
+				}
+				- destroy:
+				$( selector ).cbpQTRotator( 'destroy' );
+				*/
+
+				$( '#cbp-qtrotator' ).cbpQTRotator();
+
+			} );
+		</script>
+	</body>
+</html>
