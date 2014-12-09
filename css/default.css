@@ -73,8 +73,8 @@ a:hover {
 }
 
 div > img {
-    width: 150px;
-    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
     opacity: 0.6;
 }
 /*.container > header > span span:hover:before {
